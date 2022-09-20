@@ -1,5 +1,5 @@
 const no = document.getElementById('no');
-no.addEventListener('mouseover', () => {
+no.addEventListener('click', () => {
     if (no.classList.contains('animF')) {
         no.classList.remove('animF');
         no.classList.add('animB');
